@@ -1,0 +1,40 @@
+.InfoBox {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.InfoBox .city-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.InfoBox .temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1976d2;
+    margin: 10px 0;
+}
+
+.InfoBox .weather-description {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.InfoBox .weather-details {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.InfoBox .weather-details p {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.InfoBox .weather-details strong {
+    color: #333;
+}
+
